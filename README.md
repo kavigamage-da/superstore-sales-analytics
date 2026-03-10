@@ -1,4 +1,4 @@
- # 🛒 Superstore Sales Analytics Dashboard
+# 🛒 Superstore Sales Analytics Dashboard
 
 > End-to-end data analytics project using MySQL, Python, and Power BI on the Superstore Sales dataset.
 
@@ -39,6 +39,8 @@ This project simulates a real-world business intelligence workflow — from raw 
 
 ---
 
+## 📁 Project Structure
+```
 superstore-sales-analytics/
 │
 ├── clean.py                  # Data cleaning script
@@ -54,6 +56,9 @@ superstore-sales-analytics/
     ├── 3_profit_by_category.png
     ├── 4_top_subcategories.png
     └── 5_sales_by_region.png
+```
+
+---
 
 ## 🔄 Workflow
 
@@ -89,7 +94,7 @@ superstore-sales-analytics/
 
 ## 📸 Dashboard Preview
 
-![Power BI Dashboard](charts/1_sales_by_category.png)
+![Sales by Category](charts/1_sales_by_category.png)
 ![Monthly Trend](charts/2_monthly_trend.png)
 ![Profit by Category](charts/3_profit_by_category.png)
 ![Top Sub-Categories](charts/4_top_subcategories.png)
@@ -112,6 +117,7 @@ python analyze.py
 ```
 
 ### Power BI Dashboard
+
 1. Open `superstore_dashboard.pbix` in Power BI Desktop
 2. If prompted, update the CSV file path to your local path
 3. Interact with slicers to filter by Region, Segment, and Date
@@ -130,6 +136,7 @@ python analyze.py
 ## 👤 Author
 
 **Kavi Gamage**
+
 - GitHub: [@kavigamage-da](https://github.com/kavigamage-da)
 
 ---
