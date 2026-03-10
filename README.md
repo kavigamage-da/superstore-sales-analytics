@@ -39,13 +39,12 @@ This project simulates a real-world business intelligence workflow — from raw 
 
 ---
 
-## 📁 Project Structure
-
-```
 superstore-sales-analytics/
 │
 ├── clean.py                  # Data cleaning script
 ├── analyze.py                # KPI computation & chart generation
+├── queries.sql               # MySQL analytical queries
+├── requirements.txt          # Python dependencies
 ├── superstore_clean.csv      # Cleaned dataset (9,994 rows)
 ├── superstore_dashboard.pbix # Power BI dashboard file
 │
@@ -55,9 +54,6 @@ superstore-sales-analytics/
     ├── 3_profit_by_category.png
     ├── 4_top_subcategories.png
     └── 5_sales_by_region.png
-```
-
----
 
 ## 🔄 Workflow
 
